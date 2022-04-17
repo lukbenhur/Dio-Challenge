@@ -1,0 +1,13 @@
+criar um repositorio local usando o comando GIT init (main);
+verificar o status dos arquivos Git status;
+se precisar add algum arquivo para commitar usa o comando Git add *. (ou usa o nome do arquivo que deverá ser add);
+commit arquivos git commit -m "mensagem";
+clonar repositorio do git hub para sua maquina usa o git clone (url do repositorio);
+
+
+*lembrando que o git trabalha com "apontamentos" commits - tree - bloobs onde uma alteração em qualquer um dos apontamentos altera-se seu SHA1*
+
+**sha1 - algoritmo de referenciamento de estado (encapsulamento) garante a confiabilidade do arquivo atual;
+
+git remote add origin (endereço) adiciona o caminho para ser enviado seu repositorio no git hub com o comando git push;;
+git push origin main;;(origin e o "apelido" do endereço cadastrado com o remote add);;
